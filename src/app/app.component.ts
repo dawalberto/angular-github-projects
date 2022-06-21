@@ -13,7 +13,9 @@ export class AppComponent implements OnInit {
   constructor(private repoService: RepositoriesService) {}
 
   ngOnInit(): void {
-    this.repositories = this.repoService.getRepositories()
+    this.repoService.getRepositories().subscribe(repos => {
+      this.repositories = this.repoService.getFilteredRepositories(repos)
+    })
   }
 
 }
