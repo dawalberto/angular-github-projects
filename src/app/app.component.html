@@ -1,5 +1,6 @@
 <h1>ALGUNOS PROYECTITOS DE ALBERTO</h1>
 
-<div *ngFor="let repo of repositories | async">
-  {{repo.name}}
-</div>
+<app-repositorie-preview 
+  *ngFor="let repo of repositories | async"
+  [repo]="repo">
+</app-repositorie-preview>

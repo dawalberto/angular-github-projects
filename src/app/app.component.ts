@@ -14,7 +14,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.repositories = this.repoService.getRepositories()
-    console.log(this.repositories)
   }
 
 }
