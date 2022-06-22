@@ -1,11 +1,12 @@
 <h1>ALGUNOS PROYECTITOS DE ALBERTO</h1>
-<h2>repositories.length: {{repositories?.length}}</h2>
 
-<app-repositorie-preview 
-  *ngFor="let repo of repositories"
-  [repo]="repo"
-  (click)="showRepositorieDetails(repo)"
->
-</app-repositorie-preview>
+<div class="grid-container">
+  <app-repositorie-preview 
+    *ngFor="let repo of repositories"
+    [repo]="repo"
+    (click)="showRepositorieDetails(repo)"
+  >
+  </app-repositorie-preview>
+</div>
 
 <app-repositorie-details [repo]="repoClicked" *ngIf="showDetailsRepoClicked"></app-repositorie-details>

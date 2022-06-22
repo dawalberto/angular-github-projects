@@ -1,6 +1,5 @@
 <div class="repositorie-preview">
-  <img src="#" alt="img preview">
-  <p>{{repo.name}}</p>
+  <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
+  <p class="title">{{repo.name}}</p>
   <p *ngIf="repo.description">{{repo.description.slice(0, 30)}}...</p>
-  <p>{{repo.languages_url}}</p>
 </div>
