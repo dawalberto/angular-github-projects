@@ -2,10 +2,10 @@
   margin: .5rem;
   cursor: pointer;
   border: .1rem solid #34495e;
-
   -webkit-box-shadow: .5rem .5rem 0px 0px #2c3e50;
   -moz-box-shadow: .5rem .5rem 0px 0px #2c3e50;
   box-shadow: .5rem .5rem 0px 0px #2c3e50;
+  transition: all .2s ease-out 0ms;
 }
 
 .repositorie-preview:hover {

@@ -5,6 +5,19 @@
   width: 98%;
   background-color: #f1c40f;
   transform: translateX(-50%) translateY(-10%);
+  border: .1rem solid #34495e;
+  -webkit-box-shadow: 1rem 1rem 1rem 0px #2c3e50;
+  -moz-box-shadow: 1rem 1rem 1rem 0px #2c3e50;
+  box-shadow: 1rem 1rem 1rem 0px #2c3e50;
+  background: #f6ce7d;
+}
+
+.repositorie-details .body {
+  padding: .5rem 1rem;
+}
+
+.repositorie-details .title {
+  text-align: center;
 }
 
 /* tablets */

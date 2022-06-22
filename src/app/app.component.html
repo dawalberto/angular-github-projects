@@ -1,12 +1,14 @@
-<h1>ALGUNOS PROYECTITOS DE ALBERTO</h1>
+<div [ngClass]="{'blur': showDetailsRepoClicked, 'no-blur': !showDetailsRepoClicked}">
+  <h1>ALGUNOS PROYECTITOS DE ALBERTO</h1>
 
-<div class="grid-container">
-  <app-repositorie-preview 
-    *ngFor="let repo of repositories"
-    [repo]="repo"
-    (click)="showRepositorieDetails(repo)"
-    >
-  </app-repositorie-preview>
+  <div class="grid-container">
+    <app-repositorie-preview 
+      *ngFor="let repo of repositories"
+      [repo]="repo"
+      (click)="showRepositorieDetails(repo)"
+      >
+    </app-repositorie-preview>
+  </div>
 </div>
 
 <app-repositorie-details 

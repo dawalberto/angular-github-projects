@@ -1,3 +1,13 @@
+.blur {
+  filter: blur(1rem);
+  transition: filter .2s ease-out 0ms;
+}
+
+.no-blur {
+  filter: blur(0);
+  transition: filter .2s ease-out 0ms;
+}
+
 h1 {
   text-align: center;
 }

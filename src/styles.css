@@ -10,6 +10,7 @@
   background-color: #ffff;
   cursor: pointer;
   width: 100%;
+  text-align: right;
 }
 
 img {
@@ -20,7 +21,7 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   align-content: space-between;
   justify-content: space-around;
   max-width: 1920px;

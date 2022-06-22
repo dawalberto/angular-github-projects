@@ -1,7 +1,9 @@
 <div class="repositorie-details">
   <button class="close-button" (click)="closeRepoDetails.emit()">❌</button>
   <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
-  <p>{{repo.name}}</p>
-  <p *ngIf="repo.description">{{ repo.description }}</p>
-  <p>{{repo.languages_url}}</p>
+  <div class="body">
+    <h1 class="title">{{repo.name}}</h1>
+    <p *ngIf="repo.description">{{ repo.description }}</p>
+    <p>{{repo.languages_url}}</p>
+  </div>
 </div>
