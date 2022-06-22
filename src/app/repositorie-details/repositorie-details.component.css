@@ -1,7 +1,32 @@
 .repositorie-details {
   position: fixed;
-  top: 50%;
+  top: 10%;
   left: 50%;
+  width: 98%;
   background-color: #f1c40f;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-10%);
+}
+
+/* tablets */
+@media screen and (min-width: 768px) {
+  .repositorie-details {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 992px) {
+  .repositorie-details {
+    width: 70%;
+  }
+}
+
+/* large devices */
+@media screen and (min-width: 1200px) {
+  .repositorie-details {
+    width: 50%;
+  }
 }

@@ -21,8 +21,10 @@ export class AppComponent implements OnInit {
   }
 
   showRepositorieDetails(repo) {
-    this.showDetailsRepoClicked = true
-    this.repoClicked = repo
+    setTimeout(() => {
+      this.repoClicked = repo
+      this.showDetailsRepoClicked = true  
+    }, 100)
   }
 
 }

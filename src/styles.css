@@ -23,6 +23,8 @@ img {
   grid-gap: 1rem;
   align-content: space-between;
   justify-content: space-around;
+  max-width: 1920px;
+  margin: 4rem auto;
 }
 
 /* tablets */
