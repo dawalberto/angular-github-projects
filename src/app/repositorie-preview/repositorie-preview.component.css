@@ -1,23 +1,23 @@
 .repositorie-preview {
   margin: .5rem;
   cursor: pointer;
-  border: .1rem solid #34495e;
-  -webkit-box-shadow: .5rem .5rem 0px 0px #2c3e50;
-  -moz-box-shadow: .5rem .5rem 0px 0px #2c3e50;
-  box-shadow: .5rem .5rem 0px 0px #2c3e50;
+  border: .1rem solid #273c75;
+  -webkit-box-shadow: .5rem .5rem 0px 0px #273c75;
+  -moz-box-shadow: .5rem .5rem 0px 0px #273c75;
+  box-shadow: .5rem .5rem 0px 0px #273c75;
   transition: all .2s ease-out 0ms;
 }
 
 .repositorie-preview:hover {
   border-color: #f1c40f;
   transform: translateY(-.5rem) translateX(-.5rem);
-  -webkit-box-shadow: 1.2rem 1.2rem .03rem 0px #2c3e50;
-  -moz-box-shadow: 1.2rem 1.2rem .03rem 0px #2c3e50;
-  box-shadow: 1.2rem 1.2rem .03rem 0px #2c3e50;
+  -webkit-box-shadow: 1.2rem 1.2rem .03rem 0px #273c75;
+  -moz-box-shadow: 1.2rem 1.2rem .03rem 0px #273c75;
+  box-shadow: 1.2rem 1.2rem .03rem 0px #273c75;
 }
 
 .repositorie-preview:active {
-  border-color: #e74c3c;
+  border-color: #273c75;
   transform: translateY(.5rem) translateX(.5rem);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
