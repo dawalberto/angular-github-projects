@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RepositoriePreviewComponent } from './repositorie-preview/repositorie-preview.component';
+import { RepositorieDetailsComponent } from './repositorie-details/repositorie-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RepositoriePreviewComponent
+    RepositoriePreviewComponent,
+    RepositorieDetailsComponent
   ],
   imports: [
     BrowserModule,

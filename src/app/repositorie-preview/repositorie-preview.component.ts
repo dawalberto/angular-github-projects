@@ -6,11 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./repositorie-preview.component.css']
 })
 export class RepositoriePreviewComponent implements OnInit {
-  @Input() repo;
+  @Input() repo
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

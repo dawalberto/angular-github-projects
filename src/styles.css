@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.close-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
