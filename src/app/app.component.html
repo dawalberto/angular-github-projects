@@ -9,4 +9,9 @@
   </app-repositorie-preview>
 </div>
 
-<app-repositorie-details [repo]="repoClicked" *ngIf="showDetailsRepoClicked"></app-repositorie-details>
+<app-repositorie-details 
+  [repo]="repoClicked" 
+  *ngIf="showDetailsRepoClicked"
+  (closeRepoDetails)="showDetailsRepoClicked = false"
+  >
+</app-repositorie-details>

@@ -2,12 +2,14 @@
 @import '~normalize.css';
 
 .close-button {
-  position: fixed;
-  top: 0;
-  right: 0;
+  /* position: absolute; */
+  /* top: 0;
+  right: 0; */
   border: none;
   padding: .5rem 1rem;
   background-color: #ffff;
+  cursor: pointer;
+  width: 100%;
 }
 
 img {

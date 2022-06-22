@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-repositorie-details',
@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class RepositorieDetailsComponent implements OnInit {
 
   @Input() repo;
+  @Output() closeRepoDetails = new EventEmitter()
 
   constructor() { }
 

@@ -320,7 +320,7 @@
           "site_admin": false
       },
       "html_url": "https://github.com/dawalberto/carrito",
-      "description": null,
+      "description": "Pequeña lista de la compra compartida con inicio de sesión a través de Google",
       "fork": false,
       "url": "https://api.github.com/repos/dawalberto/carrito",
       "forks_url": "https://api.github.com/repos/dawalberto/carrito/forks",

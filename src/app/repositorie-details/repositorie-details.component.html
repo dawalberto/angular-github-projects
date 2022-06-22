@@ -1,5 +1,5 @@
 <div class="repositorie-details">
-  <button class="close-button">❌</button>
+  <button class="close-button" (click)="closeRepoDetails.emit()">❌</button>
   <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
   <p>{{repo.name}}</p>
   <p *ngIf="repo.description">{{ repo.description }}</p>
