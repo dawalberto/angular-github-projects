@@ -38,6 +38,7 @@ figure {
 .shine-effect figure {
 	position: relative;
 }
+
 .shine-effect figure::before {
 	position: absolute;
 	top: 0;
@@ -52,19 +53,43 @@ figure {
 	-webkit-transform: skewX(-25deg);
 	transform: skewX(-25deg);
 }
+
 .shine-effect figure:hover::before {
 	-webkit-animation: shine .75s;
 	animation: shine .75s;
 }
+
 @-webkit-keyframes shine {
 	100% {
 		left: 125%;
 	}
 }
+
 @keyframes shine {
 	100% {
 		left: 125%;
 	}
+}
+
+/* unvisited link */
+a:link {
+  color: #0097e6;
+  transition: all .2s ease-out 0ms;
+}
+
+/* visited link */
+a:visited {
+  color: #0097e6;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e056fd;
+}
+
+/* selected link */
+a:active {
+  color: #be2edd;
 }
 
 /* tablets */
