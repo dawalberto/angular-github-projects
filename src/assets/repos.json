@@ -496,7 +496,8 @@
             "firebase",
             "html",
             "javascript",
-            "vue"
+            "vue",
+            "tailwindcss"
         ],
         "visibility": "public",
         "forks": 0,

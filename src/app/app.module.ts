@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RepositoriePreviewComponent } from './repositorie-preview/repositorie-preview.component';
 import { RepositorieDetailsComponent } from './repositorie-details/repositorie-details.component';
+import { IconComponent } from './icon/icon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RepositoriePreviewComponent,
-    RepositorieDetailsComponent
+    RepositorieDetailsComponent,
+    IconComponent
   ],
   imports: [
     BrowserModule,

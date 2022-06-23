@@ -8,8 +8,10 @@
   </div>
   <div class="body">
     <h1 class="title">{{repo.name}}</h1>
-    <p *ngIf="repo.description">{{ repo.description }}</p>
-    <p>{{repo.topics}}</p>
+    <div class="technologies">
+      <app-icon *ngFor="let topic of repo.topics" [icon]="topic" [title]="topic"></app-icon>
+    </div>
+    <p *ngIf="repo.description">👉 {{ repo.description }}</p>
     <p>👉 <b>Repositorio: </b><a [href]="repo.html_url" target="_blank">{{repo.html_url}}</a></p>
   </div>
 </div>
