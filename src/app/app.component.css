@@ -17,6 +17,18 @@ h1 {
   border-bottom: .1rem dashed #e056fd;
 }
 
+footer {
+  border-top: .1rem dashed #e056fd;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #e056fd;
+}
+
+footer .icon {
+  vertical-align: middle
+}
+
 /* tablets */
 @media screen and (min-width: 768px) {
   h1 {
