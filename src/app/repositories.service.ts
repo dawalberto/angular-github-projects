@@ -19,6 +19,10 @@ export class RepositoriesService {
   constructor(private http: HttpClient) { }
 
   getRepositories() {
+    return this.http.get('https://api.github.com/users/dawalberto/repos?per_page=100')
+  }
+
+  getOfflineRepositories() {
     return this.http.get('/assets/repos.json')
   }
 
