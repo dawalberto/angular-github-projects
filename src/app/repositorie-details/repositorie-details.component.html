@@ -1,9 +1,15 @@
 <div class="repositorie-details">
   <button class="close-button" (click)="closeRepoDetails.emit()">❌</button>
-  <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
+  <div class="shine-effect">
+    <figure>
+      <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
+    </figure>
+    <a class="go-homepage" [href]="repo.homepage" target="_blank">Visita el proyecto</a>
+  </div>
   <div class="body">
     <h1 class="title">{{repo.name}}</h1>
     <p *ngIf="repo.description">{{ repo.description }}</p>
-    <p>{{repo.languages_url}}</p>
+    <p>{{repo.topics}}</p>
+    <p>👉 Repository: <a [href]="repo.html_url" target="_blank">{{repo.html_url}}</a></p>
   </div>
 </div>

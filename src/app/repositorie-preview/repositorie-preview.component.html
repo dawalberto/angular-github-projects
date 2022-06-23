@@ -1,5 +1,9 @@
 <div class="repositorie-preview">
-  <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
+  <div class="shine-effect">
+    <figure>
+      <img [src]="'/assets/' + repo.name + '.png'" alt="img preview">
+    </figure>
+  </div>
   <div class="body">
     <p class="title">{{repo.name}}</p>
     <p *ngIf="repo.description">{{repo.description.slice(0, 30)}}...</p>
