@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
         repos => {
           this.repositories = this.repoService.getFilteredRepositories(repos)
         }, 
-        () => {
+        error => {
           this.repoService.getOfflineRepositories()
             .subscribe(repos => this.repositories = this.repoService.getFilteredRepositories(repos))
         }
