@@ -34,5 +34,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploy
 
-- 1 👉 `ng build`
-- 2 👉 `ng deploy --base-href=/angular-github-projects/`
+- 👉 `ng deploy --base-href=/angular-github-projects/`
