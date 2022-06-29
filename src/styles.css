@@ -27,12 +27,16 @@ figure {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 97%;
   grid-gap: 2rem;
   align-content: space-between;
   justify-content: space-around;
   max-width: 1920px;
   margin: 2rem auto;
+}
+
+.shine-effect {
+	position: relative;
 }
 
 .shine-effect figure {
